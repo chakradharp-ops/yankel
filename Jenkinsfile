@@ -3,7 +3,7 @@ pipeline {
 
    stages {
       stage('checkout') {
-        git credentialsId: 'git-cred', url: 'https://github.com/praveenjirra/DevOps-Project.git'          }
+        git credentialsId: 'git-cred', url: 'https://github.com/chakradharp-ops/yankel/blob/master/Hello'          }
       } 
 
        stage('Compile Stage') {
